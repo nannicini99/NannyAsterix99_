@@ -23,6 +23,17 @@ testa.direzione = "stop"
 
 #funzioni di movimento
 def vai_su():
-    if testa.direzione != "down"
+    if testa.direzione != "down":
+       testa.direzione = "up"
+
+def vai_giu() :
+    if testa.direzione != "up":
+       testa.direzione = "down"
+
+def vai_destra():
+    if testa.direzione != "left" :
+        
+       
+
 
                 
