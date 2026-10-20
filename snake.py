@@ -30,8 +30,35 @@ def vai_giu() :
     if testa.direzione != "up":
        testa.direzione = "down"
 
+def vai_sinistra():
+    if testa.direzione != "right" :
+        testa.direzione = "left"
+
 def vai_destra():
     if testa.direzione != "left" :
+        testa.direzione = "rigt"
+
+def muovi():
+    if testa.direzione == "up":
+        y = testa.ycor()
+        testa.sety( y + 20)
+    if testa.direzione == "down":
+        y = testa.ycor()
+        testa.sety(y - 20)
+    if testa.direzione == "left":
+        x = testa.ycor()
+        testa.setx(x - 20)
+    if testa.direzione == " rigth" :
+        x= testa.ycor()
+        testa.setx(x + 20)
+
+        #collegamento tasti
+        
+
+
+
+
+
         
        
 
